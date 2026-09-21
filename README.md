@@ -17,7 +17,7 @@ The old flat `.cpp` files (SPOJ `verified/`, UVa, CodeChef, …) are history. Le
 
 I name a problem (id, URL, or pasted statement). We do **not** dump a finished solution.
 
-The agent restates the problem, looks at constraints first, then pauses at the interesting forks (greedy vs DP vs graph vs binary search on the answer, what the state is, what the edge is). I guess or choose. We continue from that guess — or from why it fails.
+The agent restates the problem, looks at constraints first, then pauses at the interesting forks (greedy vs DP vs graph vs binary search on the answer, what the state is, what the edge is). I guess or choose. We continue from that guess — or from why it fails. When a named theory, algorithm, or data structure shows up, the agent also gives a quick explanation of what it is and why it fits — not a textbook dump, enough that I am not left with a label I do not own.
 
 The algorithm has to survive a tiny example before any real code. When a picture would make the idea easier — a time line, a DP table, a graph, a shrinking search range — draw it (Mermaid, a compact ASCII figure, or a small table). Skip decoration. Code is written only after I say go.
 
@@ -42,7 +42,7 @@ Example: `oj/spoj/EDIST/statement.md`, `oj/spoj/EDIST/solution.md`, `oj/spoj/EDI
 
 **`statement.md`** — a full restatement in our own words. Not a summary. Not a paste of the original. Keep every essential: story/task, input format, output format, constraints, special cases, sample inputs, sample outputs. If the original had it, the restatement has it.
 
-**`solution.md`** — the written solution(s): forks we considered, the algorithm, the tiny example that proves it, the key insight, and an explanation of the **non-trivial** parts of the code (why that loop exists, what the state means, where the off-by-one lives). Skip the obvious. If a visual made the idea click, keep it here. If more than one approach AC'd, they all live here. After AC, a short section on what could still improve: time, memory, and any other optimization worth seeing. Note what is already as tight as it needs to be.
+**`solution.md`** — the written solution(s): forks we considered, the algorithm, the tiny example that proves it, the key insight, and an explanation of the **non-trivial** parts of the code (why that loop exists, what the state means, where the off-by-one lives). Skip the obvious. If a named theory, algorithm, or data structure is used, a short explanation lives here too. If a visual made the idea click, keep it here. If more than one approach AC'd, they all live here. After AC, a short section on what could still improve: time, memory, and any other optimization worth seeing. Note what is already as tight as it needs to be.
 
 **`<PROBLEM_ID>.cpp`** — the implementation. Do not mimic the old contest-golf / `scanf` style in this repo. Write clear code. Comments only on non-trivial bits (the *why*, not the *what*). Code only after I say go.
 
