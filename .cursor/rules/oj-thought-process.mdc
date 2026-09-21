@@ -20,17 +20,19 @@ A solution is right only when Ronald understands the idea **and** the judge retu
 ## Session loop
 
 1. Create the folder and write `statement.md`. One problem per branch (`<judge>/<PROBLEM_ID>`, e.g. `spoj/LCS0`). Never a second problem on that branch.
-2. Constraints first, then pause at the interesting fork. Ask which way Ronald would try; continue from that guess. If you name a theory, algorithm, or data structure, add a quick explanation — what it is and why it fits, not a textbook dump.
-3. Prove the algorithm on a tiny example before code. If a picture would make it easier (time line, DP table, graph, shrinking range), draw it — Mermaid, compact ASCII, or a small table. Persist the useful ones in `solution.md`. No decoration.
-4. Write `solution.md` as thinking settles. Code only after Ronald says go.
-5. Never submit to the judge. Wait for Ronald to submit, then ask for the verdict (AC/WA/TLE, plus time and memory if he has them — optional). If not AC, debug the idea before the implementation. Update both files if the idea changes.
-6. Close with the insight in `solution.md`.
-7. After AC: optimization insights in `solution.md` (time, memory, or anything else that would actually improve it). Do not rewrite the accepted code unless asked.
-8. When AC and post-AC are both in: squash-merge the branch into `main`, push `main`, delete the problem branch (local and remote if it exists). No pull requests.
+2. Restate in chat (constraints included). Ask Ronald for his approach. Do not dump forks or the solution path first.
+3. Guide his thinking toward the process that solves it: questions, the gap, the next fork — starting from what he said. If you name a theory, algorithm, or data structure, add a quick explanation — what it is and why it fits, not a textbook dump.
+4. Prove the algorithm on a tiny example before code. If a picture would make it easier (time line, DP table, graph, shrinking range), draw it — Mermaid, compact ASCII, or a small table. Persist the useful ones in `solution.md`. No decoration.
+5. Write `solution.md` as thinking settles. Code only after Ronald says go.
+6. Never submit to the judge. Wait for Ronald to submit, then ask for the verdict (AC/WA/TLE, plus time and memory if he has them — optional). If not AC, debug the idea before the implementation. Update both files if the idea changes.
+7. Close with the insight in `solution.md`.
+8. After AC: optimization insights in `solution.md` (time, memory, or anything else that would actually improve it). Do not rewrite the accepted code unless asked.
+9. When AC and post-AC are both in: squash-merge the branch into `main`, push `main`, delete the problem branch (local and remote if it exists). No pull requests.
 
 ## Hard nos
 
 - Dump a finished solution before walking the thinking.
+- Present the full solution path before Ronald has given an approach.
 - Skip “why this, why not that.”
 - Narrate obvious code (`read n`, plain loop bounds).
 - Skip a visual when a time line, table, or graph would make the idea easier.

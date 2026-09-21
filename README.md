@@ -17,7 +17,7 @@ The old flat `.cpp` files (SPOJ `verified/`, UVa, CodeChef, …) are history. Le
 
 I name a problem (id, URL, or pasted statement). We do **not** dump a finished solution.
 
-The agent restates the problem, looks at constraints first, then pauses at the interesting forks (greedy vs DP vs graph vs binary search on the answer, what the state is, what the edge is). I guess or choose. We continue from that guess — or from why it fails. When a named theory, algorithm, or data structure shows up, the agent also gives a quick explanation of what it is and why it fits — not a textbook dump, enough that I am not left with a label I do not own.
+The agent restates the problem (constraints included) and asks how I would try it. We start from my approach. The agent then guides that thinking toward the process that actually solves it — questions, the gap in the model, the next fork — instead of dumping the finished path first. When a named theory, algorithm, or data structure shows up, the agent also gives a quick explanation of what it is and why it fits — not a textbook dump, enough that I am not left with a label I do not own.
 
 The algorithm has to survive a tiny example before any real code. When a picture would make the idea easier — a time line, a DP table, a graph, a shrinking search range — draw it (Mermaid, a compact ASCII figure, or a small table). Skip decoration. Code is written only after I say go.
 
