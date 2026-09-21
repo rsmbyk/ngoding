@@ -19,7 +19,7 @@ A solution is right only when Ronald understands the idea **and** the judge retu
 
 ## Session loop
 
-1. Create the folder and write `statement.md`. One problem per branch (`oj/<id>`). Never a second problem on that branch.
+1. Create the folder and write `statement.md`. One problem per branch (`<judge>/<PROBLEM_ID>`, e.g. `spoj/LCS0`). Never a second problem on that branch.
 2. Constraints first, then pause at the interesting fork. Ask which way Ronald would try; continue from that guess.
 3. Prove the algorithm on a tiny example before code. If a picture would make it easier (time line, DP table, graph, shrinking range), draw it — Mermaid, compact ASCII, or a small table. Persist the useful ones in `solution.md`. No decoration.
 4. Write `solution.md` as thinking settles. Code only after Ronald says go.

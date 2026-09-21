@@ -50,6 +50,6 @@ New work does not land as a lone `.cpp` at the judge root.
 
 ## Git
 
-One problem per branch, named `oj/<id>`. Never a second problem on the same branch.
+One problem per branch, named `<judge>/<PROBLEM_ID>` (judge name or short code, then the problem code). Examples: `spoj/LCS0`, `uva/10453`, `codechef/CLIQUED`. Never a second problem on the same branch.
 
 When a problem is done — I understand it, the judge has AC, and the post-AC notes are written — squash-merge that branch into `master` locally, push `master`, and delete the problem branch immediately (local, and remote if it exists). No pull requests in this repo.
