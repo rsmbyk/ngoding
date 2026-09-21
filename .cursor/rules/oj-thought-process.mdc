@@ -26,7 +26,7 @@ A solution is right only when Ronald understands the idea **and** the judge retu
 5. Never submit to the judge. Wait for Ronald to submit, then ask for the verdict (AC/WA/TLE, plus time and memory if he has them — optional). If not AC, debug the idea before the implementation. Update both files if the idea changes.
 6. Close with the insight in `solution.md`.
 7. After AC: optimization insights in `solution.md` (time, memory, or anything else that would actually improve it). Do not rewrite the accepted code unless asked.
-8. When AC and post-AC are both in: squash-merge the branch into `master`, push `master`, delete the problem branch (local and remote if it exists). No pull requests.
+8. When AC and post-AC are both in: squash-merge the branch into `main`, push `main`, delete the problem branch (local and remote if it exists). No pull requests.
 
 ## Hard nos
 
