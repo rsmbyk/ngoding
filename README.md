@@ -11,7 +11,9 @@ A solution is right only when **both** are true:
 
 Understanding without AC is an unproven guess. AC without understanding is credit I do not want. A session is not done until both land.
 
-The old flat `.cpp` files (SPOJ `verified/`, UVa, CodeChef, …) are history. Leave them. New problems use the folder layout below.
+The old flat `.cpp` files (UVa, CodeChef, …) are history. Leave them. New problems use the folder layout below.
+
+SPOJ solved sources that have not been restudied live as code-only folders until a session adds `statement.md` and `solution.md`. They sit under `oj/spoj/{classical,tutorial,basics,challenge,partial,riddle}/<ID>/`. Sources that are not on the solved list (and extra copies of solved problems) live in `oj/spoj/unsolved/`.
 
 ## How a session feels
 
@@ -38,7 +40,7 @@ oj/<judge>/<PROBLEM_ID>/
   <PROBLEM_ID>.cpp
 ```
 
-Example: `oj/spoj/EDIST/statement.md`, `oj/spoj/EDIST/solution.md`, `oj/spoj/EDIST/EDIST.cpp`.
+Example: `oj/spoj/classical/LCS0/statement.md`, `oj/spoj/classical/LCS0/solution.md`, `oj/spoj/classical/LCS0/LCS0.cpp`.
 
 **`statement.md`** — a full restatement in our own words. Not a summary. Not a paste of the original. Keep every essential: story/task, input format, output format, constraints, special cases, sample inputs, sample outputs. If the original had it, the restatement has it.
 
