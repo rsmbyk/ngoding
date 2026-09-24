@@ -13,7 +13,7 @@ Understanding without AC is an unproven guess. AC without understanding is credi
 
 The old flat `.cpp` files (UVa, CodeChef, …) are history. Leave them. New problems use the folder layout below.
 
-SPOJ solved sources that have not been restudied live as code-only folders until a session adds `statement.md` and `solution.md`. They sit under `oj/spoj/{classical,tutorial,basics,challenge,partial,riddle}/<ID>/`. Sources that are not on the solved list (and extra copies of solved problems) live in `oj/spoj/unsolved/`.
+SPOJ solved sources that have not been restudied live as code-only folders until a session adds `statement.md` and `solution.md`. They sit under `oj/spoj/{classical,tutorial,basics,challenge,partial,riddle}/<ID>/`.
 
 ## How a session feels
 
